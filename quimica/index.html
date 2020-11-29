@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de temperaturas </title>
+        <link rel="stylesheet" href="estilo.css">
+        <script src="js_do_projeto.js"></script>
+<body>
+    <header>
+        <h1>Verificador de estado físico a 1 atm</h1>
+    </header>
+
+    <section>
+        <div>
+            <form>
+                <!--Form que vai pegar a temperatura, converter para "real" -->
+                <p>
+                    <label for="tempCel">Temperatura em graus Celsius do material:</label> 
+                    <input type="number" name="tempCel" id="tempCel" min="-273.15">
+                </p>
+                <!--Form para determinar a substância-->
+                <p>Substância: <br>
+
+                    <input type="radio" id="água" name="elemento" value="água">
+                    <label for="água">Água</label><br>
+                    <input type="radio" id="álcool" name="elemento" value="álcool">
+                    <label for="álcool">Álcool</label><br>
+                    <input type="radio" id="metano" name="elemento" value="metano">
+                    <label for="metano">Metano</label><br>
+                    <input type="radio" id="gálio" name="elemento" value="gálio">
+                    <label for="gálio">Gálio</label>
+                </p>
+            <!--Botão de chamamento-->
+                <p>
+                    <input type="button" value="Aplicar temperatura" onclick="checar()">
+                </p>
+            </form>
+                    
+        </div>
+        <div id="res">
+            <p>Preencha os dados para obter um resultado.</p>
+ 
+        </div>
+ 
+    </section>
+       
+    <footer>
+        <p>Site de Alef Pasqualotto e Joseph Cipriani </p>
+    </footer>
+    
+    <script src="js_do_projeto.js" ></script>
+</body>
+</html>

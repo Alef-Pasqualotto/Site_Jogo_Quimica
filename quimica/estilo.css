@@ -1,0 +1,39 @@
+/*-Estilo desenvolvido por Alef Pasqualotto e Joseph Cipriani*/
+
+body{
+    background-color: rgb(49, 204, 83);
+}
+
+header{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16pt;
+}
+
+section{
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.521) 5px 5px 5px;
+}
+p{
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+footer{
+    color: white;
+    font-size: 9pt;
+    font-family: sans-serif;
+    text-align: center;
+}
+div#res {
+    font-size: 20pt;
+    font-family: sans-serif;
+    color: black;
+}
+h1 {
+    text-align: center;
+}
