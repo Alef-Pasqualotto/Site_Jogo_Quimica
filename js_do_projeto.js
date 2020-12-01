@@ -96,9 +96,9 @@ function checar(){
                 estado = 'sólido'
             } else if (temp.value == 29.7){
                 estado = 'sólido e líquido'
-            } else if (temp.value > 29.7 && temp.value < 240078.5){
+            } else if (temp.value > 29.7 && temp.value < 2204){
                 estado = 'líquido'
-            } else if (temp.value == 240078.5){
+            } else if (temp.value == 2204){
                 estado = 'líquido e gasoso'
             } else{
                 estado = 'gasoso'
@@ -172,7 +172,7 @@ function checar(){
                     estado = 'sólido'
                 }else if (temp.value == -138){
                     estado = 'sólido e líquido'
-                }else if (temp.value < -138 &&  temp.value < -1){
+                }else if (temp.value > -138 &&  temp.value < -1){
                     estado = 'líquido'
                 }else if (temp.value == -1){
                     estado = 'líquido e gasoso'
